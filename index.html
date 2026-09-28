@@ -100,7 +100,7 @@
       </video>
     </div>
     <div class="caps">
-      <div class="v"><b>Images only, no hand state</b>The thumb lands on the cup. It never grasps.</div>
+      <div class="v"><b>Vision only</b>The thumb lands on the cup. It never grasps.</div>
       <div class="n"><b>Without force</b>Grasps, then squeezes at 2.55 N.</div>
       <div class="w"><b>With force</b>Grasps and holds at 1.20 N.</div>
     </div>
@@ -120,8 +120,8 @@
   <section>
     <h2>The result</h2>
     <figure>
-      <img src="assets/fig_ablation.png" alt="Ablation: images only, with hand state zeroed, never grasped (0 of 15); with hand state 25 of 25 at 2.55 N; with fingertip force 25 of 25 at 1.20 N" />
-      <figcaption>Without its own hand state, the policy never grasped. Hand state makes it grasp. Force makes it gentle. "Vision only" means images alone, with the hand's state zeroed; that arm ran in a separate lamp-matched session (0 of 15, against 3 of 3 for interleaved controls) and stopped at 15 of 25 planned runs on a pre-declared time limit. Force is compared within one session only. Metrics and decision rules were fixed before scoring.</figcaption>
+      <img src="assets/fig_ablation.png" alt="Ablation: vision only never grasped (0 of 15); with hand state 25 of 25 at 2.55 N; with fingertip force 25 of 25 at 1.20 N" />
+      <figcaption>Vision only never grasped. Hand state makes it grasp. Force makes it gentle. The vision-only arm ran in a separate lamp-matched session (0 of 15, against 3 of 3 for interleaved controls) and stopped at 15 of 25 planned runs on a pre-declared time limit. Force is compared within one session only. Metrics and decision rules were fixed before scoring.</figcaption>
     </figure>
   </section>
 
